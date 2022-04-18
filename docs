@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<title>ابر قهرمانان مارول</title>
+
+<meta charset="UTF-8">
+
+<html>
+
+<body>
+
+<div class="navbar">
+<a href="file:///C:/Users/pctv/Desktop/test%202.htm" class="active">صفحه اصلی</a>
+<a href="file:///C:/Users/pctv/Desktop/test%203.htm">معرفی قهرمان ها</a>
+
+</div>
+
+<div class="row">
+<div class="side">
+<h1>درباره سایت</h1>
+<p>سایت معرفی قهرمان های مارول</p>
+<h2>سایت های مهم برای طرفداران مارول</h2>
+<a href="https://www.marvel.com/">سایت رسمی مارول</a>
+
+</div>
+
+<div class="footer">
+<h3>اطلاعات سایت</h3>
+<h4>سایت ابر قهرمانان مارول</h4>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/2560px-Marvel_Logo.svg.png" alt="نماد مارول" width="500" height="250">
+
+</body>
+
+</html>
+
+<head>
+
+<style>
+
+body 
+{background-color:red}
+
+h1
+{
+float:center;
+display:block;
+color:red;
+text-align:right;
+}
+
+p
+{
+float:center;
+display:block;
+color:red;
+text-align:right;
+}
+
+h2
+{
+float:center;
+display:block;
+color:red;
+text-align:right;
+}
+
+a
+{
+float:center;
+display:block;
+color:blue;
+text-align:right;
+}
+
+h4
+{
+color:red;
+font-family:verdana;
+font-size:250%;
+}
+
+.navbar
+{
+overflow:hidden;
+background-color:#333;
+position:sticky;
+position:-webkit-sticky;
+top:0;
+}
+
+.navbar a
+{
+float:right;
+display:block;
+color:white;
+text-align:center;
+padding:14px 20px;
+text-decoration:none;
+}
+
+.navbar a.active
+{
+background-color:#666;
+color:red;
+font-size:150%;
+}
+
+.side
+{
+-ms-flex:30%;/*IE10*/
+flex:30%;
+background-color:#f1f1f1;
+padding:20px;
+}
+
+.footer 
+{
+padding:20px;
+text-align:center;
+background:#ddd;
+}
+
+</style>
+
+</head>
